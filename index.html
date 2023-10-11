@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="First">
+           <h3>Celsius to Fahrenheit Converter</h3><br>
+           <label for="Celsius">Enter Celsius</label>
+           <input id="celsius" type="number" placeholder="Celsius"><br><br>
+           <button onclick="converter()" >Click</button>
+           <div id="Fahrenheit"></div>
+        </div>
+        <div class="second">
+              <h3>Letter Counter</h3>
+              <label for="text">TYPE Your MESSAGE</label><br>
+              <textarea id="Letter" placeholder="Type Your Message"></textarea><br>
+              <button onclick="counter()">Click It</button>
+              <div id="LetterCount"></div>
+        </div>
+        <div class="third">
+            <h3>Vote Machine</h3>
+            <input id="age" type="number"><br><br>
+            <button onclick="age()">Click It</button>
+            <div id="Vote"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
